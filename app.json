@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Pomov",
+    "slug": "pomov",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "package": "id.fokusoffline.app",
+      "versionCode": 1
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#B5765A",
+          "defaultChannel": "pomodoro-timer"
+        }
+      ],
+      "expo-sqlite",
+      "expo-audio"
+    ]
+  }
+}
