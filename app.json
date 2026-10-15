@@ -5,9 +5,18 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "automatic",
+    "icon": "./assets/icon.png",
+    "androidStatusBar": {
+      "translucent": true,
+      "backgroundColor": "#00000000"
+    },
+    "androidNavigationBar": {
+      "visible": "immersive"
+    },
     "android": {
       "package": "id.fokusoffline.app",
-      "versionCode": 1
+      "versionCode": 1,
+      "edgeToEdgeEnabled": true
     },
     "plugins": [
       [
@@ -19,7 +28,9 @@
         }
       ],
       "expo-sqlite",
-      "expo-audio"
+      "expo-audio",
+      "expo-font",
+      "expo-asset"
     ]
   }
 }
